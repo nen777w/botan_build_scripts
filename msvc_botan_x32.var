@@ -1,0 +1,34 @@
+#botan platform
+BBV_CPU=x86
+
+#compiler
+BBV_CC=msvc
+
+#botan build directory
+BBV_BOTAN_BUILD_DIRECTORY=./__temp__botan_git_$BBV_CPU
+
+#botan platform configure flags
+BBV_BOTAN_PLATFORM_CONFIGURE_FLAGS_BOTAN_1_11_34="--cc=$BBV_CC --cpu=$BBV_CPU --amalgamation --without-os-features=sockets"
+BBV_BOTAN_PLATFORM_CONFIGURE_FLAGS_BOTAN_1_11_31="--cc=$BBV_CC --cpu=$BBV_CPU --via-amalgamation --without-os-features=sockets"
+
+#botan repo
+BBV_BOTAN_REPO="https://github.com/randombit/botan.git"
+
+#make util
+BBV_MAKE=nmake
+
+#extra path
+BBV_EXTRA_PATH=
+
+#install directory
+BBV_DEPLOYMENT_FOLDER=./../botan
+
+#init ext
+BBV_DBG_ARTIFACT=botand.lib
+BBV_REL_ARTIFACT=botan.lib
+
+#target ext
+BBV_TARGET_EXT=lib
+
+#target extra name
+BBV_TARGET_EXTRA_NAME=vc140
