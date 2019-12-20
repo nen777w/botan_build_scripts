@@ -17,4 +17,4 @@ The "botan" (https://github.com/randombit/botan.git) library politics do not sup
 
 # The following tools need to be present in you path env. variable:
 
-python, make (depends from comipler (see: content of *.var file), git, sed, tr
+python, make (depends from compiler (see: content of *.var file)), git, sed, tr
