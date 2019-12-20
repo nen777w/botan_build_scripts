@@ -4,6 +4,21 @@ The "botan" (https://github.com/randombit/botan.git) library politics do not sup
 # How to use
 
 		./botan_build.sh <any_var_file>.var
+		
+# Advance using
+
+For build any botan version change (add/remove/replace) the following strings in botan_build.sh
+	
+		echo "----------"
+		echo " GO GO GO "
+		echo "----------"
+
+		build_botan "Botan_1_11_31" "5e946f93e8e751d2104f58583d4f209ca631aff1"
+		build_botan "Botan_1_11_34" "b816a3652c1359028f59d64a2f742564547ab782"
+		
+Where is:
+		"Botan_1_11_31" - enclose namesapce name
+		"b816a3652c1359028f59d64a2f742564547ab782" - git hash commit in botan library
 
 # Example
 		
