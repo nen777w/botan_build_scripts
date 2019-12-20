@@ -17,6 +17,7 @@ For build any botan version change (add/remove/replace) the following strings in
 		build_botan "Botan_1_11_34" "b816a3652c1359028f59d64a2f742564547ab782"
 		
 Where is:
+
 		"Botan_1_11_31" - enclose namesapce name
 		"b816a3652c1359028f59d64a2f742564547ab782" - git hash commit in botan library
 
